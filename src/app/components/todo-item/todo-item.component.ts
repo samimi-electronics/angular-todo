@@ -20,6 +20,7 @@ export class TodoItemComponent implements OnInit {
       todos: true,
       'is-completed': this.todo.completed
     }
+    return classes;
   }
 
 }
