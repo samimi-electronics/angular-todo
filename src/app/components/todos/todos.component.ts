@@ -20,6 +20,9 @@ export class TodosComponent implements OnInit {
 
   deleteTodo(todo: Todo) {
     console.log('deleting me...')
+    this.todoService.deleteTodo(todo).subscribe(() => {
+      this.todos = this.todos.filter(t => t.id !== todo.id)
+    })
   }
 
 }
