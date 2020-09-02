@@ -1,11 +1,15 @@
 .del {
   color: white;
-  background: red;
+  background: #e04d4d;
   border: none;
   padding: 4px 8px;
   border-radius: 50%;
   cursor: pointer;
   float: right;
+}
+
+.del:hover {
+  background: #d81717;
 }
 
 .todo {
