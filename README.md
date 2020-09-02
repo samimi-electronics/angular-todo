@@ -11,6 +11,6 @@ npm install ```.
 After running the commands above, run the application using ``` ng serve ```. This will run a local server running on port 4200. To view the application open your browser and visit http://localhost:4200/. Thats it, you can now view the project and how it works.
 ### Notes
 * This application does not have persistant data
-* The data on shown is fake data loaded from the api provider
+* The data shown is fake data loaded from the api provider
 * This is a demo to showcase my angular development skills
 * You can use the code for you own project. It is provided for FREE.
