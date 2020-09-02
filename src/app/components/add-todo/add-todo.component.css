@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+}
+
+.form input[type="text"] {
+  flex: 10;
+  padding: 10px;
+  border: none;
+}
+
+.form input[type="text"]:focus {
+  outline: none;
+  border: 1px solid rgb(188, 222, 238);
+}
+
+.form input[type="submit"] {
+  flex: 2;
+  border: none;
+  border-radius: none;
+}
